@@ -1,0 +1,21 @@
+# Environment variables (SECURITY - NEVER COMMIT THESE)
+.env
+.env.local
+*.env
+
+# Dependencies
+node_modules/
+backend/venv/
+
+# Python cache & build files
+__pycache__/
+*.pyc
+*.pyo
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# System files
+.DS_Store
+Thumbs.db
